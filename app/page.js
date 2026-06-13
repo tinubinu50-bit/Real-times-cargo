@@ -144,7 +144,7 @@ export default function Home() {
         </div>
       </section>
 
-    {/* WHY US  */}
+   {/* WHY US */}
 <section style={{ position: 'relative', overflow: 'hidden', background: '#0A1628' }}>
   <div style={{
     position: 'absolute', inset: 0,
@@ -199,17 +199,57 @@ export default function Home() {
         gap: '48px 32px' 
       }}>
         {[
-          { icon: '🎯', title: 'Dedicated Fleet', desc: 'Assigned vehicles ensure consistent service quality with zero sharing or unexpected delays.' },
-          { icon: '📈', title: 'Scalable Capacity', desc: 'Rapid deployment models allow seamless scaling during peak seasons to match transport demand.' },
-          { icon: '💰', title: 'Cost Efficient', desc: 'Intelligent routing optimization keeps individual per-shipment costs consistently low.' },
-          { icon: '⭐', title: 'Proven Track Record', desc: 'Over a decade of experience managing high-volume enterprise logistics across the UAE.' },
+          { 
+            title: 'Dedicated Fleet', 
+            desc: 'Assigned vehicles ensure consistent service quality with zero sharing or unexpected delays.',
+            icon: (
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#00AEEF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="1" y="3" width="15" height="13" rx="2" ry="2" />
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+                <circle cx="5.5" cy="18.5" r="2.5" />
+                <circle cx="18.5" cy="18.5" r="2.5" />
+              </svg>
+            )
+          },
+          { 
+            title: 'Scalable Capacity', 
+            desc: 'Rapid deployment models allow seamless scaling during peak seasons to match transport demand.',
+            icon: (
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#00AEEF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10" />
+                <line x1="12" y1="20" x2="12" y2="4" />
+                <line x1="6" y1="20" x2="6" y2="14" />
+              </svg>
+            )
+          },
+          { 
+            title: 'Cost Efficient', 
+            desc: 'Intelligent routing optimization keeps individual per-shipment costs consistently low.',
+            icon: (
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#00AEEF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23" />
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+              </svg>
+            )
+          },
+          { 
+            title: 'Proven Track Record', 
+            desc: 'Over a decade of experience managing high-volume enterprise logistics across the UAE.',
+            icon: (
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#00AEEF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+            )
+          },
         ].map((item, i) => (
           <div key={i} style={{
             paddingLeft: '24px',
-            borderLeft: '2px solid rgba(0, 174, 239, 0.3)',
-            transition: 'border-color 0.3s ease'
+            borderLeft: '2px solid rgba(0, 174, 239, 0.2)',
           }}>
-            <div style={{ fontSize: '1.8rem', marginBottom: '16px' }}>{item.icon}</div>
+            <div style={{ marginBottom: '16px', display: 'flex', alignItems: 'center' }}>
+              {item.icon}
+            </div>
             <h3 style={{ 
               color: 'white', 
               fontSize: '1.25rem', 
