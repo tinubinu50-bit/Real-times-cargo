@@ -32,7 +32,6 @@ export default function Navbar() {
           {links.map(l => (
             <Link key={l.href} href={l.href} style={{ color: path === l.href ? '#00AEEF' : '#ccc', textDecoration: 'none', fontSize: '0.9rem', fontWeight: '500', padding: '6px 14px', borderBottom: path === l.href ? '2px solid #00AEEF' : '2px solid transparent', transition: 'color 0.2s' }}>{l.label}</Link>
           ))}
-          <a href="tel:00971555897779" style={{ background: '#00AEEF', color: '#0A1628', padding: '8px 18px', borderRadius: '4px', fontSize: '0.85rem', fontWeight: '700', textDecoration: 'none', marginLeft: '12px' }}>📞 Call Us</a>
         </div>
 
         <button onClick={() => setOpen(!open)} style={{ display: 'none', background: 'none', border: 'none', color: 'white', fontSize: '1.5rem', cursor: 'pointer' }} className="burger">☰</button>

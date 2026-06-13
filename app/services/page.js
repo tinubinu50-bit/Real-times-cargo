@@ -52,13 +52,6 @@ export default function Services() {
         <div style={{ position: 'absolute', inset: '-10%', backgroundImage: 'url(/images/fleet-aerial.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 0 }} />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, rgba(10,22,40,0.95) 0%, rgba(10,22,40,0.55) 100%)', zIndex: 1 }} />
         <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '4px', background: '#00AEEF', zIndex: 2 }} />
-        {/* Watermark */}
-<div style={{
-  position: 'absolute', right: '-20px', bottom: '-20px',
-  zIndex: 1, opacity: 0.06, pointerEvents: 'none'
-}}>
-  <img src="/images/logo.png" style={{ width: '400px', filter: 'brightness(0) invert(1)' }} alt="" />
-</div>
         <div style={{ position: 'relative', zIndex: 2, maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
           <div style={{ color: '#00AEEF', fontSize: '0.8rem', fontWeight: '700', letterSpacing: '3px', textTransform: 'uppercase', marginBottom: '12px' }}>What We Offer</div>
           <h1 style={{ fontFamily: 'Barlow Condensed, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.05', color: 'white' }}>
