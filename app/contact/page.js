@@ -45,7 +45,8 @@ export default function Contact() {
           <div>
             <h2 style={{ fontFamily: 'Barlow Condensed, sans-serif', fontSize: '2rem', fontWeight: '700', color: '#0A1628', textTransform: 'uppercase', marginBottom: '32px' }}>Reach Out to Us</h2>
             {[
-              { icon: '📞', label: 'Phone', value: '00971 – 555897779', href: 'tel:00971555897779' },
+              { icon: '📞', label: 'Phone', value: '+971 – 555897779', href: 'tel:00971555897779' , href:'04 252 5127'},
+              { icon: '📞', label: 'Telephone', value: '04 252 5127', href: 'tel:04 252 5127' , href:'04 252 5127'},
               { icon: '✉️', label: 'Email', value: 'info@realtimestc.ae', href: 'mailto:info@realtimestc.ae' },
               { icon: '🌐', label: 'Website', value: 'www.realtimestc.com', href: 'https://www.realtimestc.com' },
               { icon: '📍', label: 'Location', value: 'Dubai, United Arab Emirates', href: null },

@@ -8,7 +8,8 @@ export default function Footer() {
           <div style={{ fontFamily: 'Barlow Condensed, sans-serif', fontSize: '1.3rem', fontWeight: '700', color: '#fff', marginBottom: '8px' }}>REAL TIMES CARGO<br/>TRANSPORT LLC</div>
           <div style={{ fontSize: '0.85rem', lineHeight: '1.7', color: '#aaa' }}>Full-fledged logistics & transport in Dubai, UAE. 10+ years of experience.</div>
           <div style={{ marginTop: '16px', fontSize: '0.85rem', display: 'flex', flexDirection: 'column', gap: '6px' }}>
-            <a href="tel:00971555897779" style={{ color: '#00AEEF', textDecoration: 'none' }}>📞 00971 – 555897779</a>
+            <a href="tel:+971555897779" style={{ color: '#00AEEF', textDecoration: 'none' }}>📞 +971 – 555897779</a>
+            <a href="tel:04 252 5127" style={{ color: '#00AEEF', textDecoration: 'none' }}>📞 04 252 5127</a>
             <a href="mailto:info@realtimestc.ae" style={{ color: '#00AEEF', textDecoration: 'none' }}>✉️ info@realtimestc.ae</a>
           </div>
         </div>
