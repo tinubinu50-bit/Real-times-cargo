@@ -43,6 +43,16 @@ export const metadata = {
       follow: true,
     },
   },
+
+icons: {
+    icon: [
+      { url: '/favicon.ico' }, // Falls back to standard browser tabs
+      { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' }, // Targets Google Search Requirements!
+    ],
+    apple: [
+      { url: '/favicon.ico', sizes: '180x180', type: 'image/x-icon' }, // Targets Apple/Mobile bookmarks
+    ],
+  },
 }
 
 export default function RootLayout({ children }) {
