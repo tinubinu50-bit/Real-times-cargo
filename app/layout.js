@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 
 export const metadata = {
   title: 'Real Times Cargo Transport LLC | Logistics & Transport Dubai',
-  description: 'Real Times Cargo Transport LLC — full-fledged logistics and transport service provider in Dubai, UAE. 10+ years experience. 24/7 operations. Linehaul, chiller, heavy load, flatbed and more.',
+  description: 'Real Times Cargo Transport LLC  full-fledged logistics and transport service provider in Dubai, UAE. 10+ years experience. 24/7 operations. Linehaul, chiller, heavy load, flatbed and more.',
   keywords: 'cargo transport Dubai, logistics UAE, truck rental Dubai, linehaul transport UAE, chiller truck Dubai, heavy transport Dubai, flatbed truck UAE, cargo company Dubai, Real Times Cargo',
   authors: [{ name: 'Real Times Cargo Transport LLC' }],
   creator: 'Real Times Cargo Transport LLC',
@@ -47,10 +47,10 @@ export const metadata = {
 icons: {
     icon: [
       { url: '/favicon.ico' }, // Falls back to standard browser tabs
-      { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' }, // Targets Google Search Requirements!
+      { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' }, 
     ],
     apple: [
-      { url: '/favicon.ico', sizes: '180x180', type: 'image/x-icon' }, // Targets Apple/Mobile bookmarks
+      { url: '/favicon.ico', sizes: '180x180', type: 'image/x-icon' }, //  Apple/Mobile bookmarks
     ],
   },
 }
